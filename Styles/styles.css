@@ -1,31 +1,35 @@
 header{
-    color: rgb(59, 237, 59);
-    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 20vh;
+    
 }
-
-body p{
-    margin-left: 5px;
+header h1{
+    color: green;
 }
-.horario{
-    display:flex;
-    align-items: center;
-    padding: 5px;
-    font-size: 16px;
-    background-color: rgb(11, 172, 11) ;
-    height: 10vh;
-    color: white;
+.contenido{
+    height: 70vh;
 }
-
+.separacion{
+    display :flex;
+    background-color: green;  
+    
+}
+body p {
+    color: rgb(0, 0, 0);
+}
+div{
+    margin-right: 5px;
+}
 footer{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 15vh;
-    font-size: 20px;
-    background-color:black;
-    color: white;
+    background-color: black;
+    color: whitesmoke;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items:center ;
+    height: 10vh;
 }
-
-.contenido{
-    height:60vh;
+footer h1 {
+    margin: 15px;
 }
